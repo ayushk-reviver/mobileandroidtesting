@@ -3,6 +3,7 @@ class mobileAndroidSettings(object):
     env="QA"
     desired_caps = {
         "platformName":"Android",
+        "automationName":"UiAutomator",
         "deviceName":"emulator-5554",
         "appPackage":"com.reviverauto.rplate",
         "appActivity":"com.reviverauto.rplate.SplashActivity",
